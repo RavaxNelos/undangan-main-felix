@@ -1,0 +1,20 @@
+/* Pastikan gambar responsif */
+.image-container img {
+    width: 100vw; /* Sesuai lebar layar */
+    height: auto; /* Menyesuaikan tinggi */
+    display: block; /* Hindari whitespace */
+ /* Pastikan gambar tidak terdistorsi */
+}
+
+/* Background body */
+body {
+    min-height: 100vh; /* Pastikan body minimal setinggi layar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('bg-img.jpg') no-repeat center center;
+    background-size: cover; /* Pastikan background menyesuaikan */
+    user-select: none;
+    margin: 0;
+    padding: 0;
+}
